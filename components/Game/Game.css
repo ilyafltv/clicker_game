@@ -1,0 +1,42 @@
+.egg-cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px 0 50px;
+}
+.egg-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    max-width: 200px;
+}
+.egg-card__img{
+    object-fit: contain;
+    height: auto;
+    width: 100%;
+    max-width: 300px;
+}
+.egg-card__count{
+    font-size: var(--font-size-main);
+    font-weight: bold;
+    margin: 15px 0;
+}
+.egg-card__btn{
+    font-size: var(--font-size-secondary);
+    font-weight: 400;
+    padding: 8px 30px;
+    border-radius: 10px;
+    border: 1px solid var(--color-black);
+    background-color: var(--color-white-secondary);
+    cursor: pointer;
+}
+@media screen and (max-width: 350px){
+    .egg-cards{
+        width: 100%;
+    }
+}

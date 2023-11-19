@@ -1,0 +1,3 @@
+Основными проблемами проекта является подход к рендеру. Многие функции реализованы так, что при их выполнении приложение отрисовывает заново целые блоки, а не конкретные элементы. В большом приложении тратилось бы огромное количество вычислительных мощностей на загрузку лишних элементов.
+
+The main problems of the project are the approach to rendering. Many functions are implemented in such a way that when they are executed, the application re-renders entire blocks rather than specific elements. In a large application, a huge amount of computing power would be wasted loading unnecessary elements.

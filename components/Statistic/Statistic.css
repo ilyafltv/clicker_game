@@ -1,0 +1,24 @@
+.statistic-menu{
+    position: fixed;
+    width: 80%;
+    height: 80vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--color-white);
+    border: 1px solid var(--color-black);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.statistic-menu__text{
+    font-size: var(--font-size-main);
+}
+.statistic-menu__btn-cross{
+    cursor: pointer;
+    position: absolute;
+    top : 5%;
+    right: 5%;
+}
